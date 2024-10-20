@@ -1,0 +1,122 @@
+:root {
+    --color-body: rgb(42, 46, 51);
+    --color-contaner: rgb(60, 66, 73);
+    --color-box: rgb(68, 76, 87);
+}
+
+body {
+    background-color: var(--color-body);
+}
+
+body>div {
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+
+.line01,
+.line02,
+.line03,
+.line04,
+.line05 {
+    background-color: var(--color-contaner);
+    height: 100px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.line01>div,
+.line02>div,
+.line03>div {
+    background-color: var(--color-box);
+    width: 150px;
+    height: 80px;
+    margin: 10px 0;
+    margin-right: 10px;
+}
+
+.line01__box01 {
+    float: left;
+}
+
+.line01__box02 {
+    float: right;
+}
+
+.line02__box01 {
+    float: left;
+}
+
+.line02__box02 {
+    float: right;
+}
+
+.line02__box03 {
+    float: right;
+}
+
+.line02__box04 {
+    float: right;
+}
+
+.line03__box01 {
+    float: left;
+}
+
+.line03__box02 {
+    float: left;
+}
+
+.line03__box03 {
+    float: right;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+    height: 34px;
+    width: 150px;
+    background-color: var(--color-box);
+    margin-bottom: 12px;
+}
+
+.line03__box04 {
+    float: right;
+}
+
+.line04__wrappe {
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+.line04__box02 {
+    height: 80px;
+    width: 150px;
+    background-color: var(--color-box);
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.line05>div{
+   margin: 0 auto;
+   width: 310px;
+}
+
+.line05__wrapper {
+    margin-top: 10px;
+    float: left;
+}
+
+.line05__box01 {
+    height: 80px;
+    width: 150px;
+    background-color: var(--color-box);
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
