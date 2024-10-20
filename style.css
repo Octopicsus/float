@@ -76,6 +76,16 @@ body>div {
     float: right;
 }
 
+.box1,
+.box2,
+.box3,
+.box4 {
+    height: 34px;
+    width: 150px;
+    background-color: var(--color-box);
+    margin-bottom: 12px;
+}
+
 .line04__wrappe {
     margin-top: 10px;
     margin-right: 10px;
